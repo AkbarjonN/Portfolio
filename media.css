@@ -1,0 +1,141 @@
+
+@media (max-width:768px) {
+   .nav__content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+   }
+   #about{
+      scroll-margin-top: 150px;
+   }
+   .about__content{
+      display: flex;
+      flex-wrap: wrap;
+   }
+   .about__content-btn{
+      top: 490px;
+      margin: 0 auto;
+   }
+   .about__content-img{
+      margin-bottom: 40px;
+   }
+   #experience{
+      scroll-margin-top: 150px;
+   }
+   #service{
+      scroll-margin-top: 150px;
+   }
+   #portfolio{
+      scroll-margin-top: 150px;
+   }
+   .portfolio__content{
+      row-gap: 30px;
+   }
+   #contact{
+      scroll-margin-top: 150px;
+   }
+   
+}
+@media (max-width:576px) {
+    .nav__content-list{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     row-gap: 20px;
+    }
+    .header__content-title{
+      font-size: 32px;
+    }
+    #about{
+      scroll-margin-top: 190px;
+   }
+    .about__content-subtitle{
+      width: 310px;
+    }
+    .about__title{
+      font-size: 38px;
+    }
+    #experience{
+      scroll-margin-top: 190px;
+   }
+    .experience__title{
+      font-size: 38px;
+    }
+    .experience__content-skill{
+      width: 260px;
+    }
+    #service{
+      scroll-margin-top: 190px;
+   }
+    .service__title{
+      font-size: 38px;
+    }
+    .service__content{
+      width: 300px;
+      height: 265px;
+    }
+    .service__content-text{
+      font-size: 16px;
+    }
+    #portfolio{
+      scroll-margin-top: 190px;
+   }
+    .portfolio__title{
+      font-size: 38px;
+    }
+    #contact{
+      scroll-margin-top: 190px;
+   }
+    .contact__title{
+      font-size: 38px;
+    }
+    .footer__title{
+      font-size: 38px;
+    }
+   .footer__content-list{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      row-gap: 20px;
+   }
+   .icon{
+      width: 50px;
+      height: 50px;
+   }
+ }
+ @media (max-width:400px){
+   .header__content-img{
+      width: 270px;
+      height: 270px;
+   }
+   .header__content-btn{
+      padding: 10px 17px;
+   }
+   .about__content-img{
+      width: 270px;
+      height: 270px;
+   }
+   .about__content-btn{
+      padding: 10px 17px;
+   }
+   .service__content-btn{
+      padding: 10px 17px;
+   }
+   .portfolio__content-card{
+      width: 250px;
+      height: 330px;
+      border-radius: 20px;
+   }
+   .portfolio__content-img{
+      width: 250px;
+   }
+   .portfolio__content-btn{
+      padding: 10px 17px;
+   }
+   .icon{
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      font-size: 20px;
+   }
+ }
