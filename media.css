@@ -13,7 +13,7 @@
       flex-wrap: wrap;
    }
    .about__content-btn{
-      top: 490px;
+      top: 510px;
       margin: 0 auto;
    }
    .about__content-img{
@@ -46,6 +46,12 @@
     .header__content-title{
       font-size: 32px;
     }
+    .header__content-btn{
+      font-size: 16px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
     #about{
       scroll-margin-top: 190px;
    }
@@ -107,9 +113,6 @@
    .header__content-img{
       width: 270px;
       height: 270px;
-   }
-   .header__content-btn{
-      padding: 10px 17px;
    }
    .about__content-img{
       width: 270px;
