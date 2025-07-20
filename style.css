@@ -297,7 +297,7 @@ span{
 }
 .portfolio__content-card{
     width: 315px;
-    height: 350px;
+    height: 450px;
     background:#181818;
     border-radius: 30px;
     padding: 25px;
@@ -327,6 +327,20 @@ span{
 .portfolio__content-btn:hover{
     background: #B4436C;
     color: black;
+}
+.portfolio__content-table{
+    margin: 5px 0;
+    color: gray;
+}
+
+#html{
+    color: rgb(255, 123, 0);
+}
+#css{
+    color: blueviolet;
+}
+#js{
+    color: #fcd34d;
 }
 #contact{
     scroll-margin-top: 100px;
