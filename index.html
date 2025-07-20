@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
 </head>
 <body>
     <nav class="nav">
@@ -21,17 +24,21 @@
                     <li><a href="#contact" class="nav__content-link">Contact</a></li>
                     
                 </ul>
+                <i id="modeIcon" class="fas fa-moon"></i>
             </div>
         </div>
     </nav>
     <header>
         <div class="container">
             <div class="header__content">
-                <p class="header__content-subtitle1">Hello, I'm</p>
-                <h1 class="header__content-title">Nizamov Akbar</h1>
-                <p class="header__content-subtitle2">Web-Developer | Front-End</p>
-                <a href="#about" class="header__content-btn">About me</a>
-                <div class="header__content-img"></div>
+                <div data-aos="fade-right" data-aos-duration="2000" data-aos-delay="300">
+
+                    <p class="header__content-subtitle1">Hello, I'm</p>
+                    <h1 class="header__content-title">Nizamov Akbar</h1>
+                    <p class="header__content-subtitle2">Web-Developer | Front-End</p>
+                    <a href="#about" class="header__content-btn">About me</a>
+                </div>
+                <div class="header__content-img" data-aos="fade-left" data-aos-duration="2000"  data-aos-delay="300"></div>
             </div>
         </div>
     </header>
@@ -41,9 +48,9 @@
                 <h2 class="about__title">About Me</h2>
                 <p class="about__subtitle">My Intro</p>
                 <div class="about__content">
-                    <div class="about__content-img"></div>
-                    <div class="about__content-subtitle">I'm an aspiring frontend developer who is passionate about learning and self-improvement. I’ve learned the basics of HTML, CSS, and JavaScript, and I’m gaining experience by working on small projects. Currently, I’m learning Sass and React to build more dynamic and modern web applications. My goal is to gain strong technical skills and work in a professional development team.</div>
-                    <a href="#contact" class="about__content-btn">Contact Me </a>
+                    <div class="about__content-img" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="300"></div>
+                    <div class="about__content-subtitle" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="300">I'm an aspiring frontend developer who is passionate about learning and self-improvement. I’ve learned the basics of HTML, CSS, and JavaScript, and I’m gaining experience by working on small projects. Currently, I’m learning Sass and React to build more dynamic and modern web applications. My goal is to gain strong technical skills and work in a professional development team.</div>
+                    <a href="#contact" class="about__content-btn" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="300">Contact Me </a>
                 </div>
                 
             </div>
@@ -53,32 +60,32 @@
                 <h2 class="experience__title"> My Experience</h2>
                 <p class="experience__subtitle"> My Abilities</p>
                 <div class="experience__content">
-                        <div class="experience__content-skill">
+                        <div class="experience__content-skill" data-aos="fade-top" data-aos-duration="2000" data-aos-delay="200">
                           <p>HTML</p>
                           <div class="bar">
                             <div class="progress" style="width: 95%;">95%</div>
                           </div>
                         </div>
                       
-                        <div class="experience__content-skill">
+                        <div class="experience__content-skill"data-aos="fade-top" data-aos-duration="2000" data-aos-delay="700">
                           <p>CSS</p>
                           <div class="bar">
                             <div class="progress" style="width: 80%;" >80%</div>
                           </div>
                         </div>
-                        <div class="experience__content-skill">
+                        <div class="experience__content-skill"data-aos="fade-top" data-aos-duration="2000" data-aos-delay="1200">
                             <p>JS</p>
                             <div class="bar">
                               <div class="progress" style="width: 70%;">70%</div>
                             </div>
                         </div>
-                        <div class="experience__content-skill">
+                        <div class="experience__content-skill"data-aos="fade-top" data-aos-duration="2000" data-aos-delay="1700">
                             <p>SASS</p>
                             <div class="bar">
                               <div class="progress" style="width: 40%;">40%</div>
                             </div>
                         </div>
-                        <div class="experience__content-skill">
+                        <div class="experience__content-skill"data-aos="fade-top" data-aos-duration="2000" data-aos-delay="2200">
                             <p>REACT</p>
                             <div class="bar">
                               <div class="progress" style="width: 40%;">40%</div>
@@ -96,13 +103,13 @@
                 <h2 class="service__title">What I Offer</h2>
                 <p class="service__subtitle">My Services </p>
                 <div class="service__content">
-                    <p class="service__content-text"><span>✔</span> Modern frontend development</p>
-                    <p class="service__content-text"><span>✔</span> Clean and responsive UI</p>
-                    <p class="service__content-text"><span>✔</span> Pixel-perfect design conversion</p>
-                    <p class="service__content-text"><span>✔</span> Efficient code using HTML, CSS and JS</p>
+                    <p class="service__content-text" data-aos="fade-top" data-aos-duration="2000" data-aos-delay="200"><span>✔</span> Modern frontend development</p>
+                    <p class="service__content-text"data-aos="fade-top" data-aos-duration="2000" data-aos-delay="700"><span>✔</span> Clean and responsive UI</p>
+                    <p class="service__content-text"data-aos="fade-top" data-aos-duration="2000" data-aos-delay="1200"><span>✔</span> Pixel-perfect design conversion</p>
+                    <p class="service__content-text"data-aos="fade-top" data-aos-duration="2000" data-aos-delay="1700"><span>✔</span> Efficient code using HTML, CSS and JS</p>
                     
                     
-                    <a href="#contact" class="service__content-btn">Contact Me </a>
+                    <a href="#contact" class="service__content-btn"data-aos="fade-left" data-aos-duration="2000" data-aos-delay="2200">Contact Me </a>
                 </div>
                 
             </div>
@@ -111,30 +118,30 @@
             <div class="container">
                 <h2 class="portfolio__title">My Portfolio</h2>
                 <div class="portfolio__content">
-                    <div class="portfolio__content-card">
+                    <div class="portfolio__content-card"data-aos="fade-right" data-aos-duration="2000" data-aos-delay="200">
                         <h3 class="portfolio__content-title">TOTEMBO</h3>
                         <img src="img/TOTEMBO.png" alt="" class="portfolio__content-img">
                         <a href="https://akbarjonn.github.io/Totembo/" class="portfolio__content-btn">View More </a>
                     </div>
-                    <div class="portfolio__content-card">
+                    <!-- <div class="portfolio__content-card"data-aos="fade-top" data-aos-duration="2000" data-aos-delay="400">
                         <h3 class="portfolio__content-title">APARTURE</h3>
                         <img src="img/APARTURE.png" alt="" class="portfolio__content-img">
                         
                         <a href="https://akbarjonn.github.io/Aperture/" class="portfolio__content-btn">View More </a>
-                    </div>
-                    <div class="portfolio__content-card">
+                    </div> -->
+                    <div class="portfolio__content-card"data-aos="fade-top" data-aos-duration="2000" data-aos-delay="400">
                         <h3 class="portfolio__content-title">ValMari</h3>
                         <img src="img/ValMari.png" alt="" class="portfolio__content-img">
                         
                         <a href="https://akbarjonn.github.io/ValMari/" class="portfolio__content-btn">View More </a>
                     </div>
-                    <div class="portfolio__content-card">
+                    <div class="portfolio__content-card"data-aos="fade-left" data-aos-duration="2000" data-aos-delay="600">
                         <h3 class="portfolio__content-title">Clock</h3>
                         <img src="img/clock.png" alt="" class="portfolio__content-img">
                         
                         <a href="https://akbarjonn.github.io/digital-clock/" class="portfolio__content-btn">View More </a>
                     </div>
-                    <div class="portfolio__content-card">
+                    <div class="portfolio__content-card"data-aos="fade-left" data-aos-duration="2000" data-aos-delay="800">
                         <h3 class="portfolio__content-title">Weather</h3>
                         <img src="img/weather.png" alt="" class="portfolio__content-img">
                         
@@ -206,5 +213,9 @@
             </div>
         </div>
     </footer>  
+    <script>
+        AOS.init();
+    </script>
+    <script src="main.js"></script>
 </body>
 </html>
